@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Gimnasio</title>
+</head>
+<body>
+    <header class="barraSuperior">
+        <img src="../media/Boxing Beats.png" alt="" class="logo">
+        <div class="menuNav">
+            <ul class="menuNavIzquierdo">
+                <li><a href=""> Noticias </a></li>
+                <li><a href="horario.html"> Horarios </a></li>
+                <li><a href=""> Profesores </a></li>
+                <li><a href=""> Nosotros </a></li>
+            </ul>
+            <ul class="menuNavDerecho">
+                <li><a href="inicioSesion.html"> Inicio de Sesión </a></li>
+                <li><a href="registrarse.html"> Registrarse </a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="horario">
+        <table class="cal">
+            <thead>
+                <tr class="diasSemana">
+                    <th>----</th>
+                    <th class="lunes">Lun</th>
+                    <th class="martes">Mar</th>
+                    <th class="miercoles">Mié</th>
+                    <th class="jueves">Jue</th>
+                    <th class="viernes">Vie</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="horarioBoxeo">
+                    <td class="horas">20:15 a 21:15 </td>
+                    <td class="boxeo">Boxeo <br><a href="inicioSesion.html" class="linkInscripcion">¿Quieres inscribirte en esta clase?</a></td>
+                    <td class="vacio"> </td>
+                    <td class="boxeo">Boxeo <br><a href="inicioSesion.html" class="linkInscripcion">¿Quieres inscribirte en esta clase?</a></td>
+                    <td class="vacio"></td>
+                    <td class="boxeo">Boxeo <br><a href="inicioSesion.html" class="linkInscripcion">¿Quieres inscribirte en esta clase?</a></td>
+                </tr>
+                <tr class="horarioKickboxing">
+                    <td class="horas">21:30 a 22:30</td>
+                    <td class="kickboxing">Kickboxing <br><a href="inicioSesion.html" class="linkInscripcionK">¿Quieres inscribirte en esta clase?</a></td>
+                    <td class="vacio"> </td>
+                    <td class="kickboxing">Kickboxing <br><a href="inicioSesion.html" class="linkInscripcionK">¿Quieres inscribirte en esta clase?</a></td>
+                    <td class="vacio"></td>
+                    <td class="kickboxing">kickboxing <br><a href="inicioSesion.html" class="linkInscripcionK">¿Quieres inscribirte en esta clase?</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container_boxeoHorario">
+        <h1>Boxeo</h1>
+        <img class="boxeoHorario" src="../media/boxeoHorario.jpeg" alt="">
+        <div class="cajaDesplazableBoxeo">
+            <ul>
+                <li><a href="#">Profesores</a></li>
+                <li><a href="#">Inscribete en esta clase</a></li>
+                <li><a href="inicioSesion.html">Iniciar Sesion</a></li>
+                <li><a href="registrarse.html">Registrarse</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container_kickboxingHorario">
+        <h1>Kickboxing</h1>
+        <img class="kickboxingHorario" src="../media/kickboxingHorario.webp" alt="">
+        <div class="cajaDesplazableKickboxing">
+            <ul>
+                <li><a href="#">Profesores</a></li>
+                <li><a href="#">Inscribete en esta clase</a></li>
+                <li><a href="inicioSesion.html">Iniciar Sesion</a></li>
+                <li><a href="registrarse.html">Registrarse</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

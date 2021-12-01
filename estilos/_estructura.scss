@@ -1,0 +1,156 @@
+@mixin menuNavegacion {
+    display: flex;
+    li{
+        list-style-type: none;
+        padding: 3px;
+        padding-left: 5px;
+    }
+}
+@mixin cajaSeccion{
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    h1{
+        text-align: center;
+        padding: 40px;
+    }
+    img{
+        height: 350px;
+        width: 350px;
+        border-radius: 20px;
+    }
+}
+@mixin imagenesHorario{
+    width: 400px;
+    height: 300px;
+}
+@mixin  container_imagenesHorario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+    padding:50px;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+@mixin cajaDesplazable {
+    display: flex;
+    display: block;
+    border: solid 1px;
+    height: 200px;
+    border-radius: 30px;
+    margin: 20px;
+    padding-left: 20px;
+    ul{
+        list-style-type: none;
+        padding-right: 5px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    li{
+        text-align: start;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+}
+*{
+    margin:0px;
+}
+.barraSuperior{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    img{
+        width: 120px;
+    }
+}
+.menuNav{
+    display: flex;
+
+}
+.menuNavIzquierdo{
+    @include menuNavegacion()
+}
+.menuNavDerecho{
+    @include menuNavegacion();
+    padding-left: 800px;
+}
+.primeraSeccion{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 0.5fr;
+    grid-template-rows: 2fr 0.5fr;
+    padding-top: 200px;
+    padding-left:50%;
+    padding-right: 50%;
+    justify-items: center;
+    align-items: baseline;
+}
+.boxeoIndex{
+    @include cajaSeccion();
+}
+.kickboxingIndex{
+    @include cajaSeccion();
+}
+
+/* Horario*/
+@mixin cajasHorario {
+    text-align: center;
+    border: solid 2px;
+    padding-right:80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.horario{
+    padding-top: 150px;
+    width: max-content;
+}
+.diasSemana{
+    th{
+        @include cajasHorario();
+    }
+}
+.horarioBoxeo{
+    td{
+        @include cajasHorario();
+    }
+}
+.horarioKickboxing{
+    td{
+        @include cajasHorario()
+    }
+}
+.boxeoHorario{
+    @include imagenesHorario();
+}
+.kickboxingHorario{
+    @include imagenesHorario()
+}
+.container_boxeoHorario{
+    h1{
+        padding: 20px;
+    }
+    @include container_imagenesHorario();
+}
+.container_kickboxingHorario{
+    h1{
+        padding: 20px;
+    }
+    @include container_imagenesHorario();
+}
+.cajaDesplazableBoxeo{
+    @include cajaDesplazable();
+}
+.cajaDesplazableKickboxing{
+    @include cajaDesplazable();
+}

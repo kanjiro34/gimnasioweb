@@ -1,0 +1,35 @@
+@mixin efectoCaja{
+    border: solid rgb(168, 168, 168) 0.5px;
+    box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
+    transition: all 0.5s;
+}
+@mixin efectoImagen{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+.boxeoIndex:hover{
+    @include efectoCaja();
+    img:hover{
+        @include efectoImagen();
+    }
+}
+.kickboxingIndex:hover{
+    @include efectoCaja();
+    img:hover{
+        @include efectoImagen();
+    }
+}
+.container_boxeoHorario:hover{
+    @include efectoCaja();
+    img:hover{
+        @include efectoImagen(
+            scale(0)
+        );
+    }
+}
+.container_kickboxingHorario:hover{
+    @include efectoCaja();
+    img:hover{
+        @include efectoImagen();
+    }
+}

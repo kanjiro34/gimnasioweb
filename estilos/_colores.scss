@@ -1,0 +1,32 @@
+a { 
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: gray; 
+}
+.barraSuperior{
+    background-color: black;
+    img{
+        filter: invert(100%);
+    }
+}
+.menuNavIzquierdo{
+    color: white;
+}
+.menuNavDerecho{
+    color: white;
+}
+/*Horario*/
+.boxeo{
+    background-color: rgb(0, 105, 167);
+}
+.kickboxing{
+    background-color: rgb(97, 97, 97);
+}
+.cajaDesplazableBoxeo{
+    background-color: rgb(0, 105, 167);
+}
+.cajaDesplazableKickboxing{
+    background-color: rgb(97, 97, 97);
+}
