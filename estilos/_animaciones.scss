@@ -21,15 +21,7 @@
 }
 .container_boxeoHorario:hover{
     @include efectoCaja();
-    img:hover{
-        @include efectoImagen(
-            scale(0)
-        );
-    }
 }
 .container_kickboxingHorario:hover{
     @include efectoCaja();
-    img:hover{
-        @include efectoImagen();
-    }
 }

@@ -4,37 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
     <title>Gimnasio</title>
 </head>
 <body>
-    <div class="formulario">
-        <form id="formulario" action="">
-            <tr>
-                <td>Nombre</td><br>
-                <input type="text">
-            </tr><br>
-            <tr>
-                <td>Apellido</td><br>
-                <input type="text">
-            </tr><br>
-            <tr>
-                <td>Nombre de Usuario</td><br>
-                <input type="text">
-            </tr><br>
-            <tr>
-                <td>Email</td><br>
-                <input type="email">
-            </tr><br>
-            <tr>
-                <td>Crear Contraseña</td><br>
-                <input type="password">
-            </tr><br>
-            <tr>
-                <td>Confirmar contraseña</td><br>
-                <input type="password">
-            </tr>
-        </form>
-    </div>
+    <main class="contenedorInicioSesion">
+        <div class="containerFormulario">
+            <form class="formulario" id="formulario" action="">
+                <tr>
+                    <td>Nombre</td><br>
+                    <input type="text">
+                </tr><br>
+                <tr>
+                    <td>Apellido</td><br>
+                    <input type="text">
+                </tr><br>
+                <tr>
+                    <td>Nombre de Usuario</td><br>
+                    <input type="text">
+                </tr><br>
+                <tr>
+                    <td>Email</td><br>
+                    <input type="email">
+                </tr><br>
+                <tr>
+                    <td>Crear Contraseña</td><br>
+                    <input type="password">
+                </tr><br>
+                <tr>
+                    <td>Confirmar contraseña</td><br>
+                    <input type="password">
+                </tr>
+                <tr>
+                    <input class="submit" type="submit" value="Registrarse">
+                </tr>
+            </form>
+        </div>
+        <a href="../index.html"><img src="../media/Boxing Beats.png" alt=""></a>
+    </main>
+    <footer class="barraSuperior">
+        <img src="../media/Boxing Beats.png" alt="" class="logo">
+        <div class="menuNav">
+            <ul class="menuNavIzquierdo">
+                <li><a href=""> Noticias </a></li>
+                <li><a href="horario.html"> Horarios </a></li>
+                <li><a href=""> Profesores </a></li>
+                <li><a href=""> Nosotros </a></li>
+            </ul>
+            <ul class="menuNavDerecho">
+                <li><a href="inicioSesion.html"> Inicio de Sesión </a></li>
+                <li><a href="registrarse.html"> Registrarse </a></li>
+            </ul>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>

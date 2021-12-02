@@ -10,10 +10,8 @@ a:hover {
 .barraSuperior {
   background-color: black;
 }
-
 .barraSuperior img {
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 
 .menuNavIzquierdo {
@@ -46,32 +44,22 @@ a:hover {
 }
 
 .barraSuperior {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: fixed;
 }
-
 .barraSuperior img {
   width: 120px;
 }
 
 .menuNav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .menuNavIzquierdo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .menuNavIzquierdo li {
   list-style-type: none;
   padding: 3px;
@@ -79,12 +67,9 @@ a:hover {
 }
 
 .menuNavDerecho {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-left: 800px;
 }
-
 .menuNavDerecho li {
   list-style-type: none;
   padding: 3px;
@@ -92,22 +77,15 @@ a:hover {
 }
 
 .primeraSeccion {
-  display: -ms-grid;
   display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-grid-columns: 2fr 0.5fr;
-      grid-template-columns: 2fr 0.5fr;
-  -ms-grid-rows: 2fr 0.5fr;
-      grid-template-rows: 2fr 0.5fr;
+  justify-content: center;
+  grid-template-columns: 2fr 0.5fr;
+  grid-template-rows: 2fr 0.5fr;
   padding-top: 200px;
   padding-left: 50%;
   padding-right: 50%;
   justify-items: center;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: baseline;
 }
 
 .boxeoIndex {
@@ -115,12 +93,10 @@ a:hover {
   width: 500px;
   text-align: center;
 }
-
 .boxeoIndex h1 {
   text-align: center;
   padding: 40px;
 }
-
 .boxeoIndex img {
   height: 350px;
   width: 350px;
@@ -132,12 +108,10 @@ a:hover {
   width: 500px;
   text-align: center;
 }
-
 .kickboxingIndex h1 {
   text-align: center;
   padding: 40px;
 }
-
 .kickboxingIndex img {
   height: 350px;
   width: 350px;
@@ -190,21 +164,11 @@ a:hover {
 }
 
 .container_boxeoHorario {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 400px;
   width: 600px;
   padding: 50px;
@@ -214,27 +178,16 @@ a:hover {
   text-align: center;
   align-items: center;
 }
-
 .container_boxeoHorario h1 {
   padding: 20px;
 }
 
 .container_kickboxingHorario {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 400px;
   width: 600px;
   padding: 50px;
@@ -244,112 +197,122 @@ a:hover {
   text-align: center;
   align-items: center;
 }
-
 .container_kickboxingHorario h1 {
   padding: 20px;
 }
 
 .cajaDesplazableBoxeo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: block;
   border: solid 1px;
   height: 200px;
   border-radius: 30px;
+  margin: 20px;
+  padding-left: 20px;
 }
-
 .cajaDesplazableBoxeo ul {
   list-style-type: none;
+  padding-right: 5px;
+  padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 .cajaDesplazableBoxeo li {
   text-align: start;
+  padding-left: 20px;
   padding-top: 20px;
   padding-right: 10px;
 }
 
 .cajaDesplazableKickboxing {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   display: block;
   border: solid 1px;
   height: 200px;
   border-radius: 30px;
+  margin: 20px;
+  padding-left: 20px;
 }
-
 .cajaDesplazableKickboxing ul {
   list-style-type: none;
+  padding-right: 5px;
+  padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 .cajaDesplazableKickboxing li {
   text-align: start;
+  padding-left: 20px;
   padding-top: 20px;
   padding-right: 10px;
 }
 
 .boxeoIndex:hover {
   border: solid #a8a8a8 0.5px;
-  -webkit-box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-          box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-  -webkit-transition: all 0.5s;
+  box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
   transition: all 0.5s;
 }
-
 .boxeoIndex:hover img:hover {
-  -webkit-transition: all 0.6s;
   transition: all 0.6s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .kickboxingIndex:hover {
   border: solid #a8a8a8 0.5px;
-  -webkit-box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-          box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-  -webkit-transition: all 0.5s;
+  box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
   transition: all 0.5s;
 }
-
 .kickboxingIndex:hover img:hover {
-  -webkit-transition: all 0.6s;
   transition: all 0.6s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .container_boxeoHorario:hover {
   border: solid #a8a8a8 0.5px;
-  -webkit-box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-          box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-  -webkit-transition: all 0.5s;
+  box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
   transition: all 0.5s;
-}
-
-.container_boxeoHorario:hover img:hover {
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .container_kickboxingHorario:hover {
   border: solid #a8a8a8 0.5px;
-  -webkit-box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-          box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
-  -webkit-transition: all 0.5s;
+  box-shadow: rgba(85, 85, 85, 0.705) 3px 3px 3px 6px;
   transition: all 0.5s;
 }
 
-.container_kickboxingHorario:hover img:hover {
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.contenedorInicioSesion {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 20%;
+  padding-top: 10%;
 }
-/*# sourceMappingURL=estilos.css.map */
+.contenedorInicioSesion img {
+  filter: invert(100%);
+  height: 400px;
+}
+
+.containerFormulario {
+  padding: 20%;
+  border: 2px;
+}
+
+.formulario {
+  text-align: center;
+  color: white;
+}
+.formulario td {
+  padding: 10px;
+}
+.formulario input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 250px;
+}
+.formulario .submit {
+  background-color: aquamarine;
+  width: 200px;
+  margin: 20px;
+  height: 40px;
+}/*# sourceMappingURL=estilos.css.map */

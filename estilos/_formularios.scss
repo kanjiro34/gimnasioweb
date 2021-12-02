@@ -1,0 +1,36 @@
+.contenedorInicioSesion{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-top: 10%;
+    img{
+        filter: invert(100%);
+        height: 400px;
+    }
+}
+.containerFormulario{
+    padding: 20%;
+    border: 2px;
+}
+.formulario{
+    text-align: center;
+    color: white;
+    td{
+        padding: 10px;
+    }
+    input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 30px;
+        width: 250px;
+    }
+    .submit{
+        background-color: aquamarine;
+        width: 200px;
+        margin: 20px;
+        height: 40px;
+    }
+}
+
